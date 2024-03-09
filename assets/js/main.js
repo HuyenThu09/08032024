@@ -42,7 +42,7 @@ function start() {
   btnYes.innerHTML = `<i class="ti-thumb-up"></i> ${CONFIGDATA.buttonYes}`;
   btnNo.innerHTML = `<i class="ti-thumb-down"></i> ${CONFIGDATA.buttonNo}`;
   headerModar.innerHTML = `${CONFIGDATA.titleModar} <i class="ti-heart"></i>`;
-  desccriptionModar.innerHTML = `${CONFIGDATA.descriptionModar}`;
+  desccriptionModar.innerHTML = "</br>Thu xinh gái gửi anh yêu</br> Mãi bên em anh nhé </br> Love you <3";
 
   btnYes.onclick = () => {
     popup.classList.add("show");
